@@ -53,16 +53,26 @@ $(document).ready(function() {
     }
 
     if(answersA >= 3) {
+      $('#iceland').hide();
+      $('#milan').hide();
+      $('#subcontent').hide();
       $('#mexico').show();
     } else if (answersB >= 3) {
+      $('#mexico').hide();
+      $('#milan').hide();
+      $('#subcontent').hide();
       $('#iceland').show();
     } else if (answersC >= 3) {
+      $('#mexico').hide();
+      $('#iceland').hide();
+      $('#subcontent').hide();
       $('#milan').show();
     } else {
+      $('#mexico').hide();
+      $('#iceland').hide();
+      $('#milan').hide();
       $('#subcontent').show();
     }
-
-
 
   });
 });
