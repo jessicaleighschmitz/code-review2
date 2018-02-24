@@ -1,0 +1,9 @@
+/*#unsure {
+  display: flex;
+}*/
+#mexico, #iceland, #milan {
+  display: none;
+}
+#subcontent {
+  display: none;
+}

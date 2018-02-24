@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Finder</title>
+  </head>
+  <body>
+    <header>
+      <h1>Vacation Finder</h1>
+    </header>
+    <div id="container">
+      <form>
+        <div class="question">
+          <p>1) What temperature would you like your vacation destination to have?</p>
+          <label>
+          <input type="radio" id="question1" name="temperature" value='a'checked>a-Warm and sunny.
+          </label>
+          <label>
+            <input type="radio" id="question1" name="temperature" value='b'>b-Cold and snowy!
+          </label>
+          <label>
+          <input type="radio" id="question1" name="temperature" value='c'>c-Not too hot, not too cold.
+        </label>
+      </div>
+        <div class="question">
+          <p>2) Which activity are you most looking forward to on your vacation?</p>
+          <label>
+          <input type="radio" id="question2" name="activity" value='a'checked>a-Eating the local cuisine.
+          </label>
+          <label>
+          <input type="radio" id="question2" name="activity" value='b'>b-Enjoying the scenery.
+          </label>
+          <label>
+          <input type="radio" id="question2" name="activity" value='c'>c-Going shopping.
+          </label>
+        </div>
+        <div class="question">
+          <p>3) How extravagant do you expect your trip to be?</p>
+          <label>
+          <input type="radio" id="question3" name="money" value='a'checked>a-Keep it low-key, not very expensive.
+          </label>
+          <label>
+          <input type="radio" id="question3" name="money" value='b'>b-Willing to spend on airfare but not on fancy resorts.
+          </label>
+          <label>
+          <input type="radio" id="question3" name="money" value='c'>c-Money isn't a big factor.
+          </label>
+        </div>
+        <div class="question">
+          <p>4) How would you prefer to get around in your destination?</p>
+          <label>
+          <input type="radio" id="question4" name="transportation" value='a'checked>a-Walk, take public transportation or, ride a bike.
+          </label>
+          <label>
+          <input type="radio" id="question4" name="transportation" value='b'>b-Maybe rent a car although I plan on doing lots of walking.
+          </label>
+          <label>
+          <input type="radio" id="question4" name="transportation" value='c'>c-Take cabs or rent a car, boat, etc.
+          </label>
+        </div>
+        <div class="question">
+          <p>5) Will you need to have wifi at all times?</p>
+          <label>
+          <input type="radio" id="question5" name="wifi" value='a'checked>a-Nope, not always.
+          </label>
+          <label>
+          <input type="radio" id="question3" name="wifi" value='b'>b-Only while I'm in the city.
+          </label>
+          <label>
+          <input type="radio" id="question3" name="wifi" value='c'>c-Yes, nearly always.
+          </label>
+        </div>
+        <div>
+          <input type="submit" value="submit" />
+        </div>
+      </form>
+    </div>
+    <div id="destinations">
+      <div id="mexico">
+        <h2><strong>Mexico</strong></h2>
+        <p>You chose mostly A's which tells me you are looking a sunny, inexpensive getaway that has great food! Mexico is your trip!</p>
+        <p>Click the photo to explore Mexico's rich travel options.</p>
+        <a href="https://www.lonelyplanet.com/mexico"><img src="img/mexico.jpg" alt="mexico city" />
+        </a>
+      </div>
+      <div id="iceland">
+          <h2><strong>Iceland</strong></h2>
+        <p>
+          You chose mostly B's which tells me you are looking for an outdoor scenic adventure! Check out Reykjavik and then travel to the coast line for some amazing hikes!
+        </p>
+          <p>
+            Click on the photo to explore Iceland's rich travel options.
+          </p>
+          <a href="https://www.lonelyplanet.com/iceland"><img src="img/iceland.jpg" alt="iceland" /></a>
+      </div>
+      <div id="milan">
+        <h2><strong>Milan, Italy</strong></h2>
+        <p>
+          You chose mostly C's which tells me that you are looking for an extra special, extravagant getaway! Why not go to Milan? Shopping, sites, wine, and much more!
+        </p>
+        <p>
+          Click on the photo to explore Milan, Italy's rich travel options.
+        </p>
+        <a href="https://www.lonelyplanet.com/italy/milan"><img src="img/milan.jpg"alt="milan" /></a>
+      </div>
+      </div>
+      <div id="subcontent">
+        <p>
+          We couldn't pick just one so check out these options!
+        </p>
+
+        <div id="unsure">
+          <h2><strong>Mexico</strong></h2>
+          <p>Click the photo to explore Mexico's rich travel options.</p>
+          <a href="https://www.lonelyplanet.com/mexico"><img src="img/mexico.jpg" alt="mexico city" />
+          </a>
+          <h2><strong>Iceland</strong></h2>
+          <p>
+            Click on the photo to explore Iceland's rich travel options.
+          </p>
+          <a href="https://www.lonelyplanet.com/iceland"><img src="img/iceland.jpg" alt="iceland" /></a>
+          <h2><strong>Italy</strong></h2>
+          <p>
+            Click on the photo to explore Milan, Italy's rich travel options.
+          </p>
+          <a href="https://www.lonelyplanet.com/italy/milan"><img src="img/milan.jpg"alt="milan" /></a>
+        </div>
+      </div>
+  </body>
+  </html>
