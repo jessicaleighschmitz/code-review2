@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script
       src="http://code.jquery.com/jquery-3.3.1.js"
@@ -13,69 +15,121 @@
     <header>
       <h1>Vacation Finder</h1>
     </header>
+    <p id="intro">
+      Want to go on a trip but don't know where you should go? Answer the following questions to see our favorite destination suggestions this year. Time to cash in that change jar and go big!
+    </p>
     <div id="container">
       <form>
         <div class="question">
-          <p>1) What temperature would you like your vacation destination to have?</p>
-          <label>
-          <input type="radio" id="question1" name="temperature" value='a'checked>a-Warm and sunny.
-          </label>
-          <label>
+          <div class="just-question">
+            <p>1) What temperature would you like your vacation destination to have?</p>
+          </div>
+          <div class="choices">
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question1" name="temperature" value='a'checked>a-Warm and sunny.
+              </label>
+            </div>
+          <div class="each-radio">
+            <label>
             <input type="radio" id="question1" name="temperature" value='b'>b-Cold and snowy!
+            </label>
+          </div>
+          <div class="each-radio">
+            <label>
+            <input type="radio" id="question1" name="temperature" value='c'>c-Not too hot, not too cold.
           </label>
-          <label>
-          <input type="radio" id="question1" name="temperature" value='c'>c-Not too hot, not too cold.
-        </label>
+        </div>
+          </div>
       </div>
         <div class="question">
+          <div class="just-question">
           <p>2) Which activity are you most looking forward to on your vacation?</p>
-          <label>
-          <input type="radio" id="question2" name="activity" value='a'checked>a-Eating the local cuisine.
-          </label>
-          <label>
-          <input type="radio" id="question2" name="activity" value='b'>b-Enjoying the scenery.
-          </label>
-          <label>
-          <input type="radio" id="question2" name="activity" value='c'>c-Going shopping.
-          </label>
+          </div>
+          <div class="choices">
+            <div class="each-radio">
+            <label>
+            <input type="radio" id="question2" name="activity" value='a'checked>a-Eating the local cuisine.
+            </label>
+          </div>
+          <div class="each-radio">
+            <label>
+            <input type="radio" id="question2" name="activity" value='b'>b-Enjoying the scenery.
+            </label>
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question2" name="activity" value='c'>c-Going shopping.
+              </label>
+            </div>
+          </div>
         </div>
         <div class="question">
+          <div class="just-question">
           <p>3) How extravagant do you expect your trip to be?</p>
-          <label>
-          <input type="radio" id="question3" name="money" value='a'checked>a-Keep it low-key, not very expensive.
-          </label>
-          <label>
-          <input type="radio" id="question3" name="money" value='b'>b-Willing to spend on airfare but not on fancy resorts.
-          </label>
-          <label>
-          <input type="radio" id="question3" name="money" value='c'>c-Money isn't a big factor.
-          </label>
+          </div>
+          <div class="choices">
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question3" name="money" value='a'checked>a-Keep it low-key, not very expensive.
+              </label>
+            </div>
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question3" name="money" value='b'>b-Willing to spend on airfare but not on fancy resorts.
+              </label>
+            </div>
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question3" name="money" value='c'>c-Money isn't a big factor.
+              </label>
+            </div>
+          </div>
         </div>
         <div class="question">
+          <div class="just-question">
           <p>4) How would you prefer to get around in your destination?</p>
-          <label>
-          <input type="radio" id="question4" name="transportation" value='a'checked>a-Walk, take public transportation or, ride a bike.
-          </label>
-          <label>
-          <input type="radio" id="question4" name="transportation" value='b'>b-Maybe rent a car although I plan on doing lots of walking.
-          </label>
-          <label>
-          <input type="radio" id="question4" name="transportation" value='c'>c-Take cabs or rent a car, boat, etc.
-          </label>
+          </div>
+          <div class="choices">
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question4" name="transportation" value='a'checked>a-Walk, take public transportation or, ride a bike.
+              </label>
+          </div>
+          <div class="each-radio">
+            <label>
+            <input type="radio" id="question4" name="transportation" value='b'>b-Maybe rent a car although I plan on doing lots of walking.
+            </label>
+          </div>
+          <div class="each-radio">
+            <label>
+            <input type="radio" id="question4" name="transportation" value='c'>c-Take cabs or rent a car, boat, etc.
+            </label>
+          </div>
+          </div>
         </div>
         <div class="question">
+          <div class="just-question">
           <p>5) Will you need to have wifi at all times?</p>
-          <label>
-          <input type="radio" id="question5" name="wifi" value='a'checked>a-Nope, not always.
-          </label>
-          <label>
-          <input type="radio" id="question3" name="wifi" value='b'>b-Only while I'm in the city.
-          </label>
-          <label>
-          <input type="radio" id="question3" name="wifi" value='c'>c-Yes, nearly always.
-          </label>
+          </div>
+          <div class="choices">
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question5" name="wifi" value='a'checked>a-Nope, not always.
+              </label>
+            </div>
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question3" name="wifi" value='b'>b-Only while I'm in the city.
+              </label>
+            </div>
+            <div class="each-radio">
+              <label>
+              <input type="radio" id="question3" name="wifi" value='c'>c-Yes, nearly always.
+              </label>
+            </div>
         </div>
-        <div>
+        </div>
+        <div id="enter">
           <input type="submit" value="submit" />
         </div>
       </form>
@@ -85,7 +139,7 @@
         <h2><strong>Mexico</strong></h2>
         <p>You chose mostly A's which tells me you are looking a sunny, inexpensive getaway that has great food! Mexico is your trip!</p>
         <p>Click the photo to explore Mexico's rich travel options.</p>
-        <a href="https://www.lonelyplanet.com/mexico"><img src="img/mexico.jpg" alt="mexico city" />
+        <a href="https://www.lonelyplanet.com/mexico"><img class="main-photo" src="img/mexico.jpg" alt="mexico city" />
         </a>
       </div>
       <div id="iceland">
@@ -96,7 +150,7 @@
           <p>
             Click on the photo to explore Iceland's rich travel options.
           </p>
-          <a href="https://www.lonelyplanet.com/iceland"><img src="img/iceland.jpg" alt="iceland" /></a>
+          <a href="https://www.lonelyplanet.com/iceland"><img class="main-photo" src="img/iceland.jpg" alt="iceland" /></a>
       </div>
       <div id="milan">
         <h2><strong>Milan, Italy</strong></h2>
@@ -106,7 +160,7 @@
         <p>
           Click on the photo to explore Milan, Italy's rich travel options.
         </p>
-        <a href="https://www.lonelyplanet.com/italy/milan"><img src="img/milan.jpg"alt="milan" /></a>
+        <a href="https://www.lonelyplanet.com/italy/milan"><img class="main-photo" src="img/milan.jpg"alt="milan" /></a>
       </div>
       </div>
       <div id="subcontent">
@@ -117,18 +171,18 @@
         <div id="unsure">
           <h2><strong>Mexico</strong></h2>
           <p>Click the photo to explore Mexico's rich travel options.</p>
-          <a href="https://www.lonelyplanet.com/mexico"><img src="img/mexico.jpg" alt="mexico city" />
+          <a href="https://www.lonelyplanet.com/mexico"><img class="main-photo" src="img/mexico.jpg" alt="mexico city" />
           </a>
           <h2><strong>Iceland</strong></h2>
           <p>
             Click on the photo to explore Iceland's rich travel options.
           </p>
-          <a href="https://www.lonelyplanet.com/iceland"><img src="img/iceland.jpg" alt="iceland" /></a>
+          <a href="https://www.lonelyplanet.com/iceland"><img class="main-photo" src="img/iceland.jpg" alt="iceland" /></a>
           <h2><strong>Italy</strong></h2>
           <p>
             Click on the photo to explore Milan, Italy's rich travel options.
           </p>
-          <a href="https://www.lonelyplanet.com/italy/milan"><img src="img/milan.jpg"alt="milan" /></a>
+          <a href="https://www.lonelyplanet.com/italy/milan"><img class="main-photo" src="img/milan.jpg"alt="milan" /></a>
         </div>
       </div>
   </body>
