@@ -7,10 +7,7 @@ body {
 #subcontent {
   display: none;
 }
-/*img {
-  max-width: 100%;
-  max-height: 100%;
-}*/
+
 header {
   margin-top: 0;
   min-height: 400px;
@@ -26,6 +23,7 @@ h1 {
   font-family: 'Carter One';
   text-shadow: 1px 1px 2px #fff;
   align-self: flex-end;
+  margin-right: 30px;
 }
 #intro {
   margin: 40px 70px 20px 70px;

@@ -6,14 +6,18 @@ $(document).ready(function() {
     var answersB = 0;
     var answersC = 0;
 
-    var queston1 = $("input[name='temperature']:checked").val();
+    var question1 = $("input[name='temperature']:checked").val();
     var question2 = $("input[name='activity']:checked").val();
     var question3 = $("input[name='money']:checked").val();
     var question4 = $("input[name='transportation']:checked").val();
     var question5 = $("input[name='wifi']:checked").val();
 
+    console.log('Q1', question1);
+    console.log('Q2', question2);
+
     if (question1 === "a") {
       answersA += 1;
+      console.log('answersA', answersA);
     } else if (question1 === "b") {
       answersB += 1;
     } else if (question1 === "c") {
@@ -51,6 +55,8 @@ $(document).ready(function() {
     } else if (question5 === "c") {
       answersC += 1;
     }
+
+    console.log('yolo', answersA, answersB, answersC);
 
     if(answersA >= 3) {
       $('#iceland').hide();
